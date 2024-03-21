@@ -1,0 +1,27 @@
+body {
+    background-image: url('./399751.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .game-title {
+    color: #007bff;
+    background-color: #000000;
+    border: 2px solid #007bff;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .game-title:hover {
+    transform: scale(1.1);
+  }
+  #instruction {
+    color: #007bff; 
+    font-size: 1.2em; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+  }
+  
